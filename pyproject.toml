@@ -1,0 +1,19 @@
+[project]
+name = "harbieai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Sebastian Servat", email = "sebastian.servat@qommentary.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.44.12",
+    "fastapi>=0.165.0",
+    "langchain-aws>=1.10.0",
+    "python-dotenv>=1.2.4",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[tool.uv]
+package = false
